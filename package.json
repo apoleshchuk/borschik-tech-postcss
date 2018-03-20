@@ -1,0 +1,27 @@
+{
+  "name": "@apoleshchuk/borschik-tech-postcss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "borschik --tech ./ -i test.css -o test.min.css -m false",
+    "help": "borschik --help"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apoleshchuk/borschik-tech-postcss.git"
+  },
+  "author": "Anton Poleshchuk <anton@poleshchuk.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apoleshchuk/borschik-tech-postcss/issues"
+  },
+  "homepage": "https://github.com/apoleshchuk/borschik-tech-postcss#readme",
+  "dependencies": {
+    "borschik": "^2.0.0",
+    "csswring": "^6.0.3",
+    "postcss": "^6.0.20",
+    "postcss-import": "^11.1.0",
+    "reduce-function-call": "^1.0.2"
+  }
+}
